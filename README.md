@@ -16,14 +16,14 @@
         - `ITENS_PEDIDO (id_item_pedido, id_pedido, id_produto, preco_praticado, quantidade)`
 
 3. **Tarefas:**
-    a. **Consultas Básicas:**
+    - a. **Consultas Básicas:**
         - Escreva consultas SQL para obter as seguintes informações:
             - Lista de funcionários ordenando pelo salário decrescente.
             - Lista de pedidos de vendas ordenado por data de emissão.
             - Valor de faturamento por cliente.
             - Valor de faturamento por empresa.
             - Valor de faturamento por vendedor.
-    b. **Consultas de Junção:**
+    - b. **Consultas de Junção:**
         - Escreva consultas SQL para obter as seguintes informações usando junções:
             - Utilizando o último pedido de cada cliente, formule o preço base do produto dentro da coluna chamada preco_base no seu select, conforme a seguinte regra:
                 - O preço base do produto deve ser o preço de venda do último pedido do cliente, porém deve obedecer a configuração de preço da tabela CONFIG_PRECO_PRODUTO.
