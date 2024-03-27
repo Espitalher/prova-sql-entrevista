@@ -27,6 +27,7 @@
         - Escreva consultas SQL para obter as seguintes informações usando junções:
             - Unindo a listagem de produtos com a listagem de clientes, procure o último preço praticado nesse cliente com esse produto, formule o preço base do produto dentro da coluna chamada preco_base no seu select, conforme a seguinte regra:
                 - O preço base do produto deve obedecer a configuração de preço da tabela CONFIG_PRECO_PRODUTO.
+                - Caso as junções não retornem o último preço praticado, utilize o menor da configuração de preço do produto.
                 - Nesta mesma consulta, os seguintes campos deverão estar contidos:
                     - Id do produto em questão;
                     - Descrição do produto;
