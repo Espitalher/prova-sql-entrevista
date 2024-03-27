@@ -25,8 +25,8 @@
             - Valor de faturamento por vendedor.
     - b. **Consultas de Junção:**
         - Escreva consultas SQL para obter as seguintes informações usando junções:
-            - Utilizando o último pedido de cada cliente, formule o preço base do produto dentro da coluna chamada preco_base no seu select, conforme a seguinte regra:
-                - O preço base do produto deve ser o preço de venda do último pedido do cliente, porém deve obedecer a configuração de preço da tabela CONFIG_PRECO_PRODUTO.
+            - Unindo a listagem de produtos com a listagem de clientes, procure o último preço praticado nesse cliente com esse produto, formule o preço base do produto dentro da coluna chamada preco_base no seu select, conforme a seguinte regra:
+                - O preço base do produto deve obedecer a configuração de preço da tabela CONFIG_PRECO_PRODUTO.
                 - Nesta mesma consulta, os seguintes campos deverão estar contidos:
                     - Id do produto em questão;
                     - Descrição do produto;
